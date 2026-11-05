@@ -12,6 +12,11 @@
       "matchUpdateTypes": ["pin", "pinDigest"]
     },
     {
+      "matchDatasources": ["docker"],
+      "matchPackageNames": ["ghcr.io/ublue-os/bazzite-deck"],
+      "pinDigests": true
+    },
+    {
       "enabled": false,
       "matchUpdateTypes": ["digest", "pinDigest", "pin"],
       "matchDepTypes": ["container"],
